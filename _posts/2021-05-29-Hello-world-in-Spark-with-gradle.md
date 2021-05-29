@@ -1,10 +1,11 @@
 ---
+layout: pages
 title: "Spark Hello World with Gradle"
 excerpt: "Learn word count program in Spark using Gradle as build tools"
 toc: true
 toc_label: On This Page
 toc_icon: list
-toc_sticky: true
+# toc_sticky: true
 share: true
 tags:
   - spark
