@@ -21,3 +21,13 @@ This post covers the basic spark set up and run the hello world program i.e. the
 ## Prerequisites
 1. Scala - Basic
 2. Intellij IDE - Basic
+
+## Create a gradle Project
+
+## Add the gradle dependencies
+
+## Write Unit Test Cases
+
+## Run the Unit Test Cases
+
+## Run the program locally
