@@ -16,7 +16,7 @@ category:
   - spark
 ---
 
-This post covers the basic spark set up and run the hello world program i.e. the word count using Spark.
+This post covers the basic spark set up and run the hello world program i.e. the word count using Spark and maven.
 
 ## Prerequisites
 1. Scala - Basic
@@ -25,8 +25,9 @@ This post covers the basic spark set up and run the hello world program i.e. the
 4. Java 8 installed in your system
 
 ## 1. Create a maven Project
-Create a Maven Project using the intellij Idea new project and under src/main create a new folder called scala.
-Mark scala directory as source
+1. Create a Maven Project using the intellij Idea new project 
+2. under src/main create a new folder called scala.
+3. Mark scala directory as source
 
 ## 2. Add the maven dependencies
 Add the below dependencies and build plugins in your pom.xml
@@ -41,4 +42,6 @@ Under your `ApplicationMain` object, create a main method and write the below co
 
 ## 5. Run the program locally
 Run your spark application by right clicking the ApplicationMain and check the output in your console.
+
+The code is available in [Github](https://github.com/bimanmandal/learning-spark/tree/main/hello-world-spark-maven){:target="_blank"}
 
